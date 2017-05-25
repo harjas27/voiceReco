@@ -1,0 +1,91 @@
+Language model created by QuickLM on Thu May 25 03:22:41 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 19 words
+
+\data\
+ngram 1=19
+ngram 2=27
+ngram 3=22
+
+\1-grams:
+-0.9803 </s> -0.3010
+-0.9803 <s> -0.2416
+-1.3324 ARE -0.2803
+-1.9345 BOT -0.2960
+-1.9345 CHECK -0.2960
+-1.9345 FACEBOOK -0.2530
+-1.9345 GOOGLE -0.2530
+-1.9345 HI -0.2530
+-1.9345 HOW -0.2803
+-1.9345 INTELLIGENT -0.2530
+-1.6335 IS -0.2908
+-1.9345 JAVA -0.2530
+-1.9345 NAME -0.2530
+-1.9345 OPEN -0.2960
+-1.9345 REAL -0.2530
+-1.6335 WHAT -0.2908
+-1.9345 WHO -0.2803
+-1.3324 YOU -0.2416
+-1.9345 YOUR -0.2960
+
+\2-grams:
+-0.9542 <s> ARE 0.0000
+-1.2553 <s> BOT 0.0000
+-1.2553 <s> CHECK 0.0000
+-1.2553 <s> HI 0.0000
+-1.2553 <s> HOW 0.0000
+-0.9542 <s> WHAT 0.0000
+-1.2553 <s> WHO 0.0000
+-0.3010 ARE YOU 0.0000
+-0.3010 BOT OPEN 0.0000
+-0.3010 CHECK FACEBOOK 0.0000
+-0.3010 FACEBOOK </s> -0.3010
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 HI </s> -0.3010
+-0.3010 HOW ARE 0.0000
+-0.3010 INTELLIGENT </s> -0.3010
+-0.6021 IS JAVA 0.0000
+-0.6021 IS YOUR 0.0000
+-0.3010 JAVA </s> -0.3010
+-0.3010 NAME </s> -0.3010
+-0.3010 OPEN GOOGLE 0.0000
+-0.3010 REAL </s> -0.3010
+-0.3010 WHAT IS 0.0000
+-0.3010 WHO ARE 0.0000
+-0.6021 YOU </s> -0.3010
+-0.9031 YOU INTELLIGENT 0.0000
+-0.9031 YOU REAL 0.0000
+-0.3010 YOUR NAME 0.0000
+
+\3-grams:
+-0.3010 <s> ARE YOU
+-0.3010 <s> BOT OPEN
+-0.3010 <s> CHECK FACEBOOK
+-0.3010 <s> HI </s>
+-0.3010 <s> HOW ARE
+-0.3010 <s> WHAT IS
+-0.3010 <s> WHO ARE
+-0.6021 ARE YOU </s>
+-0.9031 ARE YOU INTELLIGENT
+-0.9031 ARE YOU REAL
+-0.3010 BOT OPEN GOOGLE
+-0.3010 CHECK FACEBOOK </s>
+-0.3010 HOW ARE YOU
+-0.3010 IS JAVA </s>
+-0.3010 IS YOUR NAME
+-0.3010 OPEN GOOGLE </s>
+-0.6021 WHAT IS JAVA
+-0.6021 WHAT IS YOUR
+-0.3010 WHO ARE YOU
+-0.3010 YOU INTELLIGENT </s>
+-0.3010 YOU REAL </s>
+-0.3010 YOUR NAME </s>
+
+\end\
